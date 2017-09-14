@@ -1,0 +1,125 @@
+{"presets":
+   [
+        {
+            "name": "LEVEL0",
+            "info": "Lowest sensitivity, for use with Vmarker pen II, and sensor put at normal distance between; 1.0 - 2.0m.",
+            "parameters": [
+                { "module": "sens" , "regname": "gain1"      , "value": "16"  },
+                { "module": "sens" , "regname": "gain2"      , "value": "0"   },
+                { "module": "sens" , "regname": "expol"      , "value": "0"  },
+                { "module": "sens" , "regname": "expoh"      , "value": "2"   },
+                { "module": "sens" , "regname": "thd"        , "value": "50" },
+                { "module": "sens" , "regname": "nthd"       , "value": "3"  },
+                { "module": "sens" , "regname": "oalb"       , "value": "3"   },
+                { "module": "sens" , "regname": "oahbl"      , "value": "30" },
+                { "module": "sens" , "regname": "oahbh"      , "value": "0"  }
+            ]
+        },
+		{
+            "name": "LEVEL1",
+            "info": "Lower sensitivity, for use with Vmarker pen II, and sensor put at a distance between; 1.5 - 2.5m.",
+            "parameters": [
+                { "module": "sens" , "regname": "gain1"      , "value": "16"  },
+                { "module": "sens" , "regname": "gain2"      , "value": "0"   },
+                { "module": "sens" , "regname": "expol"      , "value": "0"  },
+                { "module": "sens" , "regname": "expoh"      , "value": "4"   },
+                { "module": "sens" , "regname": "thd"        , "value": "50" },
+                { "module": "sens" , "regname": "nthd"       , "value": "3"  },
+                { "module": "sens" , "regname": "oalb"       , "value": "3"   },
+                { "module": "sens" , "regname": "oahbl"      , "value": "30" },
+                { "module": "sens" , "regname": "oahbh"      , "value": "0"  }
+            ]
+        },
+		{
+            "name": "LEVEL2",
+            "info": "Low sensitivity, for use with Vmarker pen II, and sensor put at a distance between; 2.0 - 3.0m.",
+            "parameters": [
+                { "module": "sens" , "regname": "gain1"      , "value": "16"  },
+                { "module": "sens" , "regname": "gain2"      , "value": "0"   },
+                { "module": "sens" , "regname": "expol"      , "value": "0"  },
+                { "module": "sens" , "regname": "expoh"      , "value": "8"   },
+                { "module": "sens" , "regname": "thd"        , "value": "50" },
+                { "module": "sens" , "regname": "nthd"       , "value": "3"  },
+                { "module": "sens" , "regname": "oalb"       , "value": "3"   },
+                { "module": "sens" , "regname": "oahbl"      , "value": "30" },
+                { "module": "sens" , "regname": "oahbh"      , "value": "0"  }
+            ]
+        },
+        {
+            "name": "LEVEL3",
+            "info": "Average sensitivity, for use with Vmarker pen II, and sensor put at normal distance between; 2.5 - 3.5m.",
+            "parameters": [
+                { "module": "sens" , "regname": "gain1"      , "value": "16"  },
+                { "module": "sens" , "regname": "gain2"      , "value": "0"   },
+                { "module": "sens" , "regname": "expol"      , "value": "0"   },
+                { "module": "sens" , "regname": "expoh"      , "value": "16"  },
+                { "module": "sens" , "regname": "thd"        , "value": "50"  },
+                { "module": "sens" , "regname": "nthd"       , "value": "3"   },
+                { "module": "sens" , "regname": "oalb"       , "value": "3"   },
+                { "module": "sens" , "regname": "oahbl"      , "value": "30"  },
+                { "module": "sens" , "regname": "oahbh"      , "value": "0"   }
+            ]
+        },
+        {
+            "name": "LEVEL4",
+            "info": "Above average sensitivity, for use  basic IR-pen, and sensor put at a distance between; 1.5 - 2.5m.",
+            "parameters": [
+                { "module": "sens" , "regname": "gain1"      , "value": "16"  },
+                { "module": "sens" , "regname": "gain2"      , "value": "0"   },
+                { "module": "sens" , "regname": "expol"      , "value": "0"   },
+                { "module": "sens" , "regname": "expoh"      , "value": "32"  },
+                { "module": "sens" , "regname": "thd"        , "value": "50"  },
+                { "module": "sens" , "regname": "nthd"       , "value": "3"   },
+                { "module": "sens" , "regname": "oalb"       , "value": "3"   },
+                { "module": "sens" , "regname": "oahbl"      , "value": "30"  },
+                { "module": "sens" , "regname": "oahbh"      , "value": "0"   }
+            ]
+        },
+        {
+            "name": "LEVEL5",
+            "info": "High sensitivity, for use basic IR-pen, and sensor put at normal a between; 2.0 - 3.0m.",
+            "parameters": [
+                { "module": "sens" , "regname": "gain1"      , "value": "16"  },
+                { "module": "sens" , "regname": "gain2"      , "value": "3"   },
+                { "module": "sens" , "regname": "expol"      , "value": "0"   },
+                { "module": "sens" , "regname": "expoh"      , "value": "8"   },
+                { "module": "sens" , "regname": "thd"        , "value": "100" },
+                { "module": "sens" , "regname": "nthd"       , "value": "3"   },
+                { "module": "sens" , "regname": "oalb"       , "value": "3"   },
+                { "module": "sens" , "regname": "oahbl"      , "value": "30"  },
+                { "module": "sens" , "regname": "oahbh"      , "value": "0"   }
+            ]
+        },
+        {
+            "name": "LEVEL6",
+            "info": "Higher sensitivity, for use basic IR-pen, and sensor put at normal distance between; 2.5 - 3.5m.",
+            "parameters": [
+                { "module": "sens" , "regname": "gain1"      , "value": "16"  },
+                { "module": "sens" , "regname": "gain2"      , "value": "3"   },
+                { "module": "sens" , "regname": "expol"      , "value": "0"   },
+                { "module": "sens" , "regname": "expoh"      , "value": "16"  },
+                { "module": "sens" , "regname": "thd"        , "value": "100" },
+                { "module": "sens" , "regname": "nthd"       , "value": "3"   },
+                { "module": "sens" , "regname": "oalb"       , "value": "3"   },
+                { "module": "sens" , "regname": "oahbl"      , "value": "30"  },
+                { "module": "sens" , "regname": "oahbh"      , "value": "0"   }
+            ]
+        },
+        {
+            "name": "LEVEL7",
+            "info": "Highest sensitivity, for use basic IR-pen, and sensor put at a distance between; 3.0 - 4.0m.",
+            "parameters": [
+                { "module": "sens" , "regname": "gain1"      , "value": "16"  },
+                { "module": "sens" , "regname": "gain2"      , "value": "3"   },
+                { "module": "sens" , "regname": "expol"      , "value": "0"   },
+                { "module": "sens" , "regname": "expoh"      , "value": "32"  },
+                { "module": "sens" , "regname": "thd"        , "value": "100" },
+                { "module": "sens" , "regname": "nthd"       , "value": "3"   },
+                { "module": "sens" , "regname": "oalb"       , "value": "3"   },
+                { "module": "sens" , "regname": "oahbl"      , "value": "30"  },
+                { "module": "sens" , "regname": "oahbh"      , "value": "0"   }
+            ]
+        }
+    ]
+}
+
