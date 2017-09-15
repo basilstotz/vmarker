@@ -93,10 +93,10 @@
 		{"id" : "[info:bootloader]",  			"tr" : "Firmware Update"},
 		{"id" : "[info:bootloader:version]",  	"tr" : "Bootloader Version"},
 
-        {"id" : "[align:stop]",                 "tr" : "Stop Sensor Ausrichtung"},
+        {"id" : "[align:stop]",                 "tr" : "Stopp Sensor Ausrichtung"},
         {"id" : "[align:startcal]",             "tr" : "Start Kalibrierung"},
-        {"id" : "[align:setup]",                "tr" : "Vmarker Arrangement"},
-        {"id" : "[align:setup:info]",           "tr" : "Wähle Sensor Arrangment"},
+        {"id" : "[align:setup]",                "tr" : "Arrangement"},
+        {"id" : "[align:setup:info]",           "tr" : "Wähle Arrangment"},
 		
         {"id" : "[bootloader:title]",			"tr" : "Firmware Update"},
         {"id" : "[bootloader:update]",          "tr" : "Starte Firmware Update"},
