@@ -1,7 +1,7 @@
 {"presets":
    [
         {
-            "name": "Pen II       (1.5m)",
+            "name": "LEVEL0",
             "info": "Lowest sensitivity, for use with Vmarker pen II, and sensor put at normal distance between; 1.0 - 2.0m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -16,7 +16,7 @@
             ]
         },
 		{
-            "name": "Pen II       (2.0m)",
+            "name": "LEVEL1",
             "info": "Lower sensitivity, for use with Vmarker pen II, and sensor put at a distance between; 1.5 - 2.5m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -31,7 +31,7 @@
             ]
         },
 		{
-            "name": "Pen II       (2.5m)",
+            "name": "LEVEL2",
             "info": "Low sensitivity, for use with Vmarker pen II, and sensor put at a distance between; 2.0 - 3.0m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "name": "Pen II       (3.0m)",
+            "name": "LEVEL3",
             "info": "Average sensitivity, for use with Vmarker pen II, and sensor put at normal distance between; 2.5 - 3.5m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "name": "Basic Pen (2.0m)",
+            "name": "LEVEL4",
             "info": "Above average sensitivity, for use  basic IR-pen, and sensor put at a distance between; 1.5 - 2.5m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -76,7 +76,7 @@
             ]
         },
         {
-            "name": "Basic Pen (2.5m)",
+            "name": "LEVEL5",
             "info": "High sensitivity, for use basic IR-pen, and sensor put at normal a between; 2.0 - 3.0m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -91,7 +91,7 @@
             ]
         },
         {
-            "name": "Basic Pen (3.0m)",
+            "name": "LEVEL6",
             "info": "Higher sensitivity, for use basic IR-pen, and sensor put at normal distance between; 2.5 - 3.5m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -106,7 +106,7 @@
             ]
         },
         {
-            "name": "Basic Pen (3.5m)",
+            "name": "LEVEL7",
             "info": "Highest sensitivity, for use basic IR-pen, and sensor put at a distance between; 3.0 - 4.0m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },

@@ -1,7 +1,7 @@
 {"presets":
    [
         {
-            "name": "Pen II       (1.5m)",
+            "name": "Pen II      (1.5m)",
             "info": "Lowest sensitivity, for use with Vmarker pen II, and sensor put at normal distance between; 1.0 - 2.0m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -16,7 +16,7 @@
             ]
         },
 		{
-            "name": "Pen II       (2.0m)",
+            "name": "Pen II      (2.0m)",
             "info": "Lower sensitivity, for use with Vmarker pen II, and sensor put at a distance between; 1.5 - 2.5m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -31,7 +31,7 @@
             ]
         },
 		{
-            "name": "Pen II       (2.5m)",
+            "name": "Pen II      (2.5m)",
             "info": "Low sensitivity, for use with Vmarker pen II, and sensor put at a distance between; 2.0 - 3.0m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "name": "Pen II       (3.0m)",
+            "name": "Pen II      (3.0m)",
             "info": "Average sensitivity, for use with Vmarker pen II, and sensor put at normal distance between; 2.5 - 3.5m.",
             "parameters": [
                 { "module": "sens" , "regname": "gain1"      , "value": "16"  },
